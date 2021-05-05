@@ -21,7 +21,7 @@ int main(){
         bpoint = 31.0177;
     }
     else if(strcmp(mcurrency, "BTH") == 0){
-        bpoint = 999;
+        bpoint = 999;    // เงิน BTH เป็น bpoint ไปในตัวจึงต้องตั้งเงื่อไขแยก
     }
     else if(strcmp(mcurrency, "GBP") == 0){
         bpoint = 42.9129;
