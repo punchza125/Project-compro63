@@ -17,7 +17,7 @@ int main(){
     
 
 	
-	\\\\
+	
     if(strcmp(mcurrency, "USD") == 0){
         bpoint = 31.0177;
     }
