@@ -11,7 +11,7 @@ int main(){
 	scanf("%s", mcurrency);
 	printf("Enter the currency you want to exchange:");
     scanf("%s", currency);
-    printf("How many?");
+    printf("How much would you like to exchange ?:");
     scanf("%f", &money);
     
     
@@ -333,13 +333,13 @@ int main(){
 	
 
 	if(k == 1 && bpoint==999){
-	    printf("%f\n", money/spoint);
+	    printf("%f %s\n", money/spoint, currency);
 	}
 	else if(k == 1 && spoint == 999){
-	    printf("%f\n", money*bpoint);
+	    printf("%f %s\n", money*bpoint, currency);
 	}
 	else {
-	printf("%.2f\n", (bpoint*money)/spoint);
+	printf("%f %s\n", (bpoint*money)/spoint, currency);
 	}
 	return 0;
 }
