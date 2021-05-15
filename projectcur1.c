@@ -155,8 +155,7 @@ int main(){
 	
 	//calculate
 	
-	printf("%f test\n", bpoint); ////เอาไว้เช็คก่อนนำเสนอ
-	printf("%f test\n", spoint);////อย่าลืมลบออก
+
 	if(k == 1 && bpoint==999){
 	    printf("%f\n", money/spoint);
 	}
