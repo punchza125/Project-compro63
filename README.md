@@ -12,6 +12,8 @@ program นี้เป็นโปรแกรมสำหรับคนที
 
 ระบบจะคำนวณเงินหลังจากการแลกเปลี่ยนแล้วให้คุณ
 
+Video Presentation: https://youtu.be/K8VV3pkKAjw
+
 
 ## Member
 | รหัสนักศึกษา | ชื่อ - นามสกุล | Github Username |
