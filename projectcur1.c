@@ -22,7 +22,7 @@ int main(){
     }
     else if(strcmp(mcurrency, "BTH") == 0){
         bpoint = 999; 
-        k = 1;       // เงิน BTH เป็น bpoint ไปในตัวจึงต้องตั้งเงื่อไขแยก
+        k = 1;       // เงิน BTH เป็น bpoint ไปในตัวจึงต้องตั้งเงื่อนไขแยก
     }
     else if(strcmp(mcurrency, "GBP") == 0){
         bpoint = 43.5881;
