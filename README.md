@@ -12,7 +12,7 @@ program นี้เป็นโปรแกรมสำหรับคนที
 
 ระบบจะคำนวณเงินหลังจากการแลกเปลี่ยนแล้วให้คุณ
 
-Video Presentation: https://youtu.be/K8VV3pkKAjw
+Video Presentation: https://youtu.be/_nLsAay_g5Y
 
 
 ## Member
