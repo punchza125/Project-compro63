@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main(){
-	float money, spoint, bpoint, k;
+	float money, spoint, bpoint, k, exit;
 
 	char mcurrency[4], currency[4];
 	
@@ -22,7 +22,7 @@ int main(){
     }
     else if(strcmp(mcurrency, "BTH") == 0){
         bpoint = 999; 
-        k = 1;       // เงิน BTH เป็น bpoint ไปในตัวจึงต้องตั้งเงื่อนไขแยก
+        k = 1;       // ?? BTH ?? bpoint ??????????????
     }
     else if(strcmp(mcurrency, "GBP") == 0){
         bpoint = 43.5881;
@@ -31,7 +31,7 @@ int main(){
         bpoint = 37.4961;
     }
     else if(strcmp(mcurrency, "JPY") == 0){
-        bpoint = 28.2589/100; //เพราะเป็นราคาต่อ 100 จากสกุลอื่นที่ 1
+        bpoint = 28.2589/100; //???????? 100 ?Å????? 1
     }
     else if(strcmp(mcurrency, "HKD") == 0){
         bpoint = 3.9946;
@@ -165,6 +165,11 @@ int main(){
     else if(strcmp(mcurrency, "PKR") == 0){
         bpoint = 0.2048;
     }
+    else{
+    	printf("\n");
+    	printf("\n");
+    	printf("Something wrong with your currency");
+	}
     
     
     
@@ -325,21 +330,39 @@ int main(){
 	else if(strcmp(currency, "PKR") == 0){
 	    spoint =  0.2070;
 	}
+	else{
+		printf("\n");
+		printf("\n");
+    	printf("Something wrong with your currency");
+	}
 	
 	
 	
 	
 	//calculate
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	printf("\n");
 	
 
 	if(k == 1 && bpoint==999){
-	    printf("%f %s\n", money/spoint, currency);
+	    printf("The result is %f %s\n", money/spoint, currency);
 	}
 	else if(k == 1 && spoint == 999){
-	    printf("%f %s\n", money*bpoint, currency);
+	    printf("The result is %f %s\n", money*bpoint, currency);
 	}
 	else {
-	printf("%f %s\n", (bpoint*money)/spoint, currency);
+	printf("The result is %f %s\n", (bpoint*money)/spoint, currency);
 	}
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	printf("Press any button to exit.: ");
+	scanf("%s", exit);
+	
 	return 0;
 }
